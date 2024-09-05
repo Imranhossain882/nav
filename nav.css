@@ -1,0 +1,49 @@
+form{
+    /* display: block; */
+    padding: 5px 10px;
+}
+
+/* form */
+fieldset{
+    margin-top: 25px;
+    padding: 10px ;
+}
+/* table */
+table{
+    border-collapse: collapse;
+}
+table, tr,td,th{
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+
+/* navber css */
+
+nav li:hover{
+    background-color: aqua;
+}
+nav>ul{
+    /* display: inline; */
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li ul li a{
+    text-decoration: none;
+}
+nav li .show{
+    display: none;
+    position: absolute;
+    background-color: lightgreen;
+    padding-left: 20px;
+}
+
+nav li:hover > .show{
+    display: block;
+}

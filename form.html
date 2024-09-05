@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="form.html">form</a>
+                    <ul class="show">
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="vedio.html">vedio</a></li>
+                        <li>
+                            <a href="table.html">table</a>
+                            <ul class="show">
+                                <li><a href="form.html">form</a></li>
+                                <li><a href="vedio.html">vedio</a></li>
+                                <li><a href="table.html">table</a></li>
+                            </ul>
+                        
+                        
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="vedio.html">vedio</a>
+                    <ul class="show">
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="vedio.html">vedio</a></li>
+                        <li><a href="table.html">table</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="table.html">table</a>
+                    <ul class="show">
+                        <li><a href="form.html">form</a></li>
+                        <li><a href="vedio.html">vedio</a></li>
+                        <li><a href="table.html">table</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <label for="">Your Name:
+                <input type="text" placeholder="Your Name">
+            </label>
+            <label for="">Your Email
+                <input type="text" placeholder="Your Email">
+            </label>
+            <label for="">Your Phone
+                <input type="text" placeholder="Your Phone">
+            </label>
+
+            <fieldset>
+                <legend>choice Your District </legend>
+                <label for="">
+                    <input type="radio" name="District" id="Dhaka">Dhaka
+                </label>
+                <label for="">
+                    <input type="radio" name="District" id="Dinajpur">Dinajpur
+                </label>
+                <label for="">
+                    <input type="radio" name="District" id="Barishal">Barishal
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Select Your Division</legend>
+
+                    <label for="">
+                        <input type="checkbox" name="Division" id="Dhaka">Dhaka
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="Division" id="Rongpur">Rongpur
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="Division" id="Madaripur">Madaripur
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="Division" id="Phoridpur">Phoridpur
+                    </label>
+            </fieldset>
+            
+                <label for="">
+                    <input type="reset" value="reset">
+                </label>
+            
+                <label for="">
+                    <input type="submit" value="submit">
+                </label>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
